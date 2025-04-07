@@ -1,0 +1,19 @@
+# Environnements virtuels
+venv/
+.env
+__pycache__/
+*.pyc
+
+# Fichiers temporaires
+*.log
+*.tmp
+
+# Systèmes d’exploitation
+.DS_Store
+Thumbs.db
+
+# VSCode
+.vscode/
+
+# Fichiers système
+*.swp
