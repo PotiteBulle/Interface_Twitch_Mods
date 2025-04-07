@@ -1,7 +1,7 @@
 # Interface_Twitch_Mods
 
 Bot de modération Twitch automatisé utilisant un fichier Google Sheet comme source de comptes à bannir.<br>
-Il vérifie régulièrement les nouveaux pseudos à bannir, les identifie via l'API Twitch, vérifie s’ils sont déjà bannis, et les bannit automatiquement s’ils ne le sont pas encore.
+Il vérifie régulièrement les nouveaux pseudos à bannir, les identifie via l'API Twitch, vérifie s’iels sont déjà bannis, et les bannit automatiquement s’iels ne le sont pas encore.
 
 ## Fonctionnalités
 
@@ -15,8 +15,8 @@ Il vérifie régulièrement les nouveaux pseudos à bannir, les identifie via l'
 ## Détails
 - Vérifie toutes les 3 minutes une feuille Google Sheet
 - Récupère les pseudos à bannir + raison
-- Vérifie si l'utilisateurices est déjà banni
-- Bannit automatiquement les utilisateurices ciblés via l'API Twitch
+- Vérifie si l'utilisateur·ice est déjà banni
+- Bannit automatiquement les utilisateur·ices ciblés via l'API Twitch
 - Support multi-chaînes Twitch
 - Basé sur un système de token sécurisé (.env)
 
@@ -44,10 +44,10 @@ Il vérifie régulièrement les nouveaux pseudos à bannir, les identifie via l'
    # ID client Twitch (https://twitchinsights.net/checkuser)
    CLIENT_ID=ton_client_id
 
-   # ID Twitch du modérateur (le bot ou toi)
+   # ID Twitch de lae modérateur·ice (le bot ou toi)
    MOD_ID=123456789
 
-   # IDs Twitch des diffuseurs (séparés par des virgules si plusieurs - https://twitchinsights.net/checkuser)
+   # IDs Twitch des diffuseur·ices (séparés par des virgules si plusieurs - https://twitchinsights.net/checkuser)
    BROADCASTER_ID=123456789,987654321
 
    # Noms des chaînes (en minuscules, sans le #)
@@ -103,7 +103,7 @@ exmeple de fichier CSV valide [CSV Exemple](https://docs.google.com/spreadsheets
 python interface_twitch_mod.py
 ```
 
-Le bot affichera les utilisateurs à bannir et les actions effectuées dans la console.
+Le bot affichera les utilisateur·ices à bannir et les actions effectuées dans la console.
 
 ---
 
